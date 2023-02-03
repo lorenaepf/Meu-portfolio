@@ -108,6 +108,8 @@
 .ST{
   
     background-color: #FDE7DC;
+    padding-bottom: 120px;
+    
 }
 
 .skills{
@@ -116,22 +118,101 @@
     font-family: alebold;
     font-size: 30px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 90px;
+    
 }
 
 .box{
     display:flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: center;
 }
 
 .circle {
-    
+    font-family: alemedium;
+    color: #4B3225;
+    display: grid;
+    place-items: center;
     margin: 10px;
     width: 80px;
     height: 80px;
     background: white;
     border-radius: 50%
+    
+    
   }
+
+  .box2{
+    
+    display:flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+  .tools{
+    
+    color: #4B3225;
+    font-family: alebold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 90px;
+    
+  }
+
+  .circle:hover{
+    
+    transition-delay: 0.5s;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background: #FDE7DC;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%
+    
+  }
+
+
+  .hovertext {
+    margin-top: 30px;
+    font-size: 30px;
+    position: absolute;
+    color: transparent;
+    text-align: center;
+    
+  }
+
+  .hovertextt {
+    margin-top: 30px;
+    font-size: 60px;
+    position: absolute;
+    color: transparent;
+    text-align: center;
+    
+  }
+  
+  .hovertext:hover {
+    transition-delay: 0.5s;
+    font-size: 16px;
+    transition-duration: 0ms;
+    padding-top: 70px;
+    color: #4B3225;
+  }
+
+  .hovertextt:hover {
+    transition-delay: 0.5s;
+    font-size: 16px;
+    transition-duration: 0ms;
+    padding-top: 70px;
+    color: #4B3225;
+  }
+  
+ 
+
+  
+  
+ 
+
+  
+  
 
