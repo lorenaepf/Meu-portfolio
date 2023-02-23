@@ -79,6 +79,13 @@
     padding: 80px;
 }
 
+.nav a:hover{
+    
+    font-family: extrabold;
+    transition: 0.5ms;
+}
+
+
 
 .extrabold {
     font-family: extrabold;
@@ -325,9 +332,7 @@
 
 }
 
-.component {}
 
-.alltools {}
 
 .testezin {
     z-index: 1;
@@ -351,4 +356,99 @@
     height: 50px;
     background: white;
     border-radius: 50%
+}
+
+.sobre-mim{
+    background-color: #FDE7DC;
+    height: 700px;
+}
+
+.components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    
+}
+
+#rectangle{
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.grupo{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#circle{
+    border-width: 20px;
+    border-style: solid;
+    border-color: white;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 220px;
+    border-radius: 150px;
+    background-color: #181010;
+    background-image: url(img/me2.png);
+    background-size: 220px;
+    
+}
+
+#sects{
+    display: flex;
+    align-items: center;
+    
+    font-family: alebold;
+    color: #181010;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    
+    background-color: white;
+    border-radius: 25px;
+    margin: 0px 30px 10px 0px;
+}
+
+#sects p{
+    padding-left: 15px;
+    font-size: 17px
+}
+
+.texts-sobremim{
+    
+    
+}
+
+.texts-sobremim h2{
+    padding-left: 270px;
+    padding-top: 40px;
+    color: #3f3028;
+    font-family: alebold;
+    font-size: 30px;
+    align-content: center;
+}
+
+.texts-sobremim p{
+    padding-left: 70px ;
+    padding-top: 40px;
+    text-align: center;
+    color: #9C7765;
+    font-family: alebold;
+    font-size: 20px;
+    width: 550px;
+}
+
+.links{
+    padding-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
